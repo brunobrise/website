@@ -28,6 +28,11 @@
 		padding-bottom: 1em;
 	}
 
+	.section-cover {
+		display: flex;
+		align-items: center;
+	}
+
 	.section-title {
 		text-align: center;
 	}
@@ -64,7 +69,7 @@
 		margin: 0 auto;
 		padding: 1em 2em;
 	}
-	
+
 	.quote a {
 		text-decoration: none;
 	}
@@ -78,11 +83,18 @@
 	}
 
 	.quote-content {
-		font-style: italic;		
+		font-style: italic;
 	}
 
 	.quote-author {
 		font-weight: bold;
+	}
+
+	#contact {
+		background-color: var(--blue);
+		color: var(--white);
+		min-height: 50vh;
+		text-align: center;
 	}
 
 	@media screen and (min-width:56em) {
@@ -90,6 +102,10 @@
 			padding: 0 24px;
 			max-width: 56em;
 			margin:0 auto;
+		}
+
+		.section-title {
+			padding: 0 24px;
 		}
 
 		.section-columns {
@@ -142,5 +158,12 @@
 				<p class="quote-content">«&nbsp;L'automatisation est le plus puissant des outils dont nous disposons en tant que développeurs.&nbsp;»&nbsp;—&nbsp;<span class="quote-author">Scott Hanselman</span></p>
 			</a>
 		</div>
+	</div>
+</section>
+
+<section id="contact" class="section-cover">
+	<div class="container section-inner">
+		<h2 class="section-title">Pour une infrastructure élastique.<br>Supervision, haute disponibilité et scalabilité.</h2>
+		<a class="button" href="mailto:bonjour@brunobrise.com?subject=Prise%20de%20contact&body=Bonjour Bruno,">ME CONTACTER</a>
 	</div>
 </section>

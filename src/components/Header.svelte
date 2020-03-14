@@ -205,7 +205,7 @@
 			{/if}
 			{/each}
 		</ul>
-		<a class="button" href='contact' on:click={sidebarToggle}>ME CONTACTER</a>
+		<a class="button" href="mailto:bonjour@brunobrise.com?subject=Prise%20de%20contact&body=Bonjour Bruno," on:click={sidebarToggle}>ME CONTACTER</a>
 	</nav>
 </sidebar>
 {/if}
