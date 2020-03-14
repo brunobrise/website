@@ -8,14 +8,6 @@ const site = {
 				'footer',
 				'sidebar'
 			]
-		},
-		{
-			name: 'Contact',
-			slug: 'contact',
-			location: [
-				'header',
-				'footer',
-			]
 		}
 	]
 }
