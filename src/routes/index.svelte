@@ -64,13 +64,17 @@
 		margin: 0 auto;
 		padding: 1em 2em;
 	}
+	
+	.quote a {
+		text-decoration: none;
+	}
 
 	.quote-author-image {
 		width: 64px;
 		height: 64px;
 		border-radius: 50%;
 		float: left;
-		padding: 1em;
+		padding: 0 1em;
 	}
 
 	.quote-content {
@@ -133,8 +137,10 @@
 			</div>
 		</div>
 		<div class="quote">
-			<img class="quote-author-image" src="people-scott-hanselman.jpg" alt="Photo de Scott Hanselman">
-			<p class="quote-content">«&nbsp;L'automatisation est le plus puissant des outils dont nous disposons en tant que développeurs.&nbsp;»&nbsp;—&nbsp;<span class="quote-author">Scott Hanselman</span></p>
+			<a href="https://www.hanselman.com/" target="_blank" rel="noopener">
+				<img class="quote-author-image" src="people-scott-hanselman.jpg" alt="Photo de Scott Hanselman">
+				<p class="quote-content">«&nbsp;L'automatisation est le plus puissant des outils dont nous disposons en tant que développeurs.&nbsp;»&nbsp;—&nbsp;<span class="quote-author">Scott Hanselman</span></p>
+			</a>
 		</div>
 	</div>
 </section>
