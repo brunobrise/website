@@ -69,6 +69,15 @@ code {
 	text-decoration: none;
 }
 
+.button:hover {
+	background-color: var(--red);
+	color: var(--white);
+	animation-name: background-color-change-blue-to-red;
+	animation-duration: 450ms;
+	text-decoration: none;
+	cursor: pointer;
+}
+
 @media (min-width: 400px) {
 	body {
 		font-size: 16px;
@@ -78,4 +87,9 @@ code {
 @keyframes color-change-black-to-silver {
 	from {color: var(--black);}
 	to {color: var(--silver);}
+}
+
+@keyframes background-color-change-blue-to-red {
+	from { background-color: var(--blue); }
+	to { background-color: var(--red); }
 }
