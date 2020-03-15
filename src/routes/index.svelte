@@ -67,7 +67,7 @@
 		display: flex;
 		align-items: center;
 		margin: 0 auto;
-		padding: 1em 2em;
+		padding: 1em;
 	}
 
 	.quote a {
@@ -79,7 +79,7 @@
 		height: 64px;
 		border-radius: 50%;
 		float: left;
-		padding: 0 1em;
+		padding-right: 1em;
 	}
 
 	.quote-content {
