@@ -33,6 +33,10 @@
 		align-items: center;
 	}
 
+	.section-cover .button{
+		margin-top: 2em;
+	}
+
 	.section-title {
 		text-align: center;
 	}
