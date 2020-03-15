@@ -154,7 +154,7 @@
 		</div>
 		<div class="quote">
 			<a href="https://www.hanselman.com/" target="_blank" rel="noopener">
-				<img class="quote-author-image" src="people-scott-hanselman.jpg" alt="Photo de Scott Hanselman">
+				<img class="quote-author-image" src="people-scott-hanselman.webp" alt="Photo de Scott Hanselman">
 				<p class="quote-content">«&nbsp;L'automatisation est le plus puissant des outils dont nous disposons en tant que développeurs.&nbsp;»&nbsp;—&nbsp;<span class="quote-author">Scott Hanselman</span></p>
 			</a>
 		</div>
