@@ -68,6 +68,6 @@
 	<slot></slot>
 </main>
 
-<Footer {segment}/>
+<Footer />
 
 <div bind:this={gotop} id="gotop" on:click={scrollToTop}>↑</div>
