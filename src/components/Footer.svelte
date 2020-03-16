@@ -56,6 +56,11 @@
 		stroke-width: 1;
 	}
 
+	.footer-copyright {
+		color: var(--gray-light);
+		padding: 1em 0;
+	}
+
 	@media screen and (min-width: 56em) {
 		.footer-inner {
 			flex-wrap: nowrap;
@@ -97,5 +102,8 @@
 			<li class="footer-social-network"><a href="{network.url}" target="_blank" rel="noopener" aria-label="{network.name}">{@html network.svg}</a></li>
 			{/each}
 		</ul>
+	</div>
+	<div class="footer-secondary">
+		<p class="footer-copyright">Bruno Brito Semedo | 2020 © Tous droits réservés</p>
 	</div>
 </footer>
