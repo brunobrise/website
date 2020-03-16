@@ -1,11 +1,13 @@
 :root {
 	--red: #A72608;
 	--blue: #08415C;
+	--blue-transparent: #08415C77;
 	--black: #070707;
 	--silver: #C2C1C2;
 	--gray: #515052;
 	--white-whisper: #EAEAEA;
 	--white: #FFF;
+	--white-transparent: #FFFFFF77;
 
 	--font-family-default: 'Open Sans', Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	--font-family-header: 'Montserrat', Helvetica, Arial, sans-serif;
