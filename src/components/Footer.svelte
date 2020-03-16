@@ -47,7 +47,7 @@
 
 	.footer-social-network :global(svg) {
 		fill: var(--white);
-		margin: 0 1em;
+		margin: 0 0.5em;
 		width: 48px;
 		height: 48px;
 	}
@@ -86,6 +86,7 @@
 		.footer-social-network :global(svg) {
 			width: 24px;
 			height: 24px;
+			margin: 0 1em;
 		}
 	}
 </style>
