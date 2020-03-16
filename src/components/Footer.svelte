@@ -46,9 +46,10 @@
 	}
 
 	.footer-social-network :global(svg) {
+		fill: var(--white);
+		margin: 0 1em;
 		width: 48px;
 		height: 48px;
-		margin: 0 1em;
 	}
 
 	.footer-social-network :global(circle) {
@@ -85,8 +86,6 @@
 		.footer-social-network :global(svg) {
 			width: 24px;
 			height: 24px;
-			fill: var(--white);
-			margin: 0 1em;
 		}
 	}
 </style>
