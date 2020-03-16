@@ -134,17 +134,6 @@
 </style>
 
 <svelte:head>
-	<title>Bruno Brise</title>
-	<meta name="description" content="Bruno Brito Semedo est un ingénieur Cloud œuvrant à l'accélération de la performance technologique des entreprises via les pratiques DevOps.">
-	<meta property="og:image" content="https://brunobrise.com/favicon.png">
-	<meta property="og:site_name" content="Bruno Brise">
-	<meta property="og:url" content="https://brunobrise.com">
-	<meta name="twitter:title" content="Bruno Brise">
-	<meta name="twitter:description" content="Bruno Brito Semedo est un ingénieur Cloud œuvrant à l'accélération de la performance technologique des entreprises via les pratiques DevOps">
-	<meta name="twitter:image" content="https://brunobrise.com/favicon.png">
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="@brunobrise">
-	<meta name="twitter:image:alt" content="Photo portrait en buste de Bruno Brito Semedo portant un costume et une chemise bleu.">
 </svelte:head>
 
 <section id="avatar">
