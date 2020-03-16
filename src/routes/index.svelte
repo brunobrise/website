@@ -68,19 +68,19 @@
 	}
 
 	.quote {
-		display: flex;
-		align-items: center;
 		margin: 0 auto;
 		padding: 1em;
 	}
 
 	.quote a {
+		display: flex;
+		align-items: center;
 		text-decoration: none;
 	}
 
 	.quote-author-image {
-		width: 64px;
-		height: 64px;
+		width: 72px;
+		height: 72px;
 		border-radius: 50%;
 		float: left;
 		padding-right: 1em;
