@@ -163,7 +163,7 @@
 			<div class="section-column">
 				<p>Entrepreneur dynamique, Bruno développe des produits répondant à des problématiques aussi diverses et variées que celles liées à l'accessibilité, l'isolement social, l'image de marque personnelle, la mise en relation, l'émancipation de soi. Il adhère fortement à l'idée que la technologie est un facteur de développement humain. L'automatisation des tâches chronophages ainsi qu'à faible valeur cognitive est son leitmotiv.</p>
 				<p>Dans son rôle d'intervenant au sein d'associations telles que 100 000 entrepreneurs, il prône l'accompagnement des plus jeunes dans leurs actions entrepreneuriales. Cette activité créative associée à une recherche méthodique d'informations est essentielle à l'élaboration de cadres de travail productifs.</p>
-				<p>Bruno Brise est la manifestation du désir d'exploration étendue de son créateur.</p>
+				<p>Bruno Brise est la manifestation du désir d'exploration continue de son créateur.</p>
 			</div>
 		</div>
 		<div class="quote">
