@@ -894,4 +894,8 @@ career.experiences.forEach(experience => {
 	})
 });
 
+career.volunteerExperiences.forEach(volunteerExperience => {
+	volunteerExperience.description = volunteerExperience.description.replace(/^\t{3}/gm, '');
+});
+
 export default career;
