@@ -62,8 +62,7 @@
 	.header-inner, .sidebar-inner {
 		display: flex;
 		box-sizing: border-box;
-		padding: 40px 30px;
-		line-height: 2em;
+		padding: 20px 30px;
 	}
 
 	.header-branding, .sidebar-branding {
@@ -101,7 +100,7 @@
 	}
 
 	.sidebar-open {
-		margin-top:-0.2em;
+		margin-top:0.25em;
 		margin-left: auto;
 		display: block;
 		font-size: 1.5em;
