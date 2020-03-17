@@ -3,8 +3,10 @@
 	--blue: #08415C;
 	--blue-transparent: #08415C77;
 	--black: #070707;
-	--silver: #C2C1C2;
+	--gray-dark: #222222;
 	--gray: #515052;
+	--gray-light: #787878;
+	--silver: #C2C1C2;
 	--white-whisper: #EAEAEA;
 	--white: #FFF;
 	--white-transparent: #FFFFFF77;
@@ -42,6 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	font-family: var(--font-family-title);
 	font-size: 2em;
+	font-weight: 500;
 }
 
 h2 {
@@ -65,7 +68,13 @@ code {
 svg {
 	height: 48px;
 	width: 48px;
-	fill: var(--blue);
+	fill: var(--white);
+}
+
+.container {
+	padding: 0 24px;
+	max-width: 56em;
+	margin:0 auto;
 }
 
 .button {
