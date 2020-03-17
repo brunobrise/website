@@ -38,7 +38,6 @@
 		justify-content: center;
 		margin: 1em auto;
 		padding-top: 2em;
-		border-top: 1px solid var(--gray-dark);
 	}
 
 	.footer-social-network {
