@@ -1,6 +1,12 @@
 :root {
 	--red: #A72608;
+	--green: #4ba265;
 	--blue: #08415C;
+	--blue-tint-3: #5293af;
+	--blue-light: #4B88A2;
+	--blue-tint-2: #a2c5d4;
+	--blue-tint-1: #e5eff3;
+	--blue-tint-0: #f3f7f9;
 	--blue-transparent: #08415C77;
 	--black: #070707;
 	--gray-dark: #222222;
@@ -111,4 +117,15 @@ svg {
 @keyframes background-color-change-blue-to-red {
 	from { background-color: var(--blue); }
 	to { background-color: var(--red); }
+}
+
+@keyframes color-change-level1 {
+	from {
+		background-color: var(--blue-tint-2);
+		color: var(--gray);
+	}
+	to {
+		background-color: var(--red);
+		color: var(--white);
+	}
 }

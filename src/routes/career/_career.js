@@ -289,6 +289,602 @@ const career = {
 			duration: "",
 			description: "L’association 100 000 entrepreneurs diffuse l’esprit et la culture d’entreprendre auprès des jeunes de 13 à 25 ans en envoyant des entrepreneurs témoigner dans les collèges, lycées et établissements de l’enseignement supérieur."
 		}
+	],
+	skills : [
+		{
+			name: "Devops",
+			slug: "devops",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "Google Cloud Platform",
+			slug: "google-cloud-platform",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "Amazon Web Services",
+			slug: "amazon-web-services",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "Microsoft Azure",
+			slug: "microsoft-azure",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "Docker",
+			slug: "docker",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "Kubernetes",
+			slug: "kubernetes",
+			description: "",
+			level: "5"
+		},
+		{
+			name: "Terraform",
+			slug: "terraform",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "Pulumi",
+			slug: "pulumi",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "Puppet",
+			slug: "puppet",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "Ansible",
+			slug: "ansible",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "Jenkins",
+			slug: "jenkins",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "Elastic",
+			slug: "elastic",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "Administration DB",
+			slug: "database-admintrattor",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "SQL",
+			slug: "sql",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "NoSQL",
+			slug: "nosql",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "PostgreSQL",
+			slug: "postgresql",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "MySQL",
+			slug: "mysql",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "MongoDB",
+			slug: "mongodb",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "Cassandra",
+			slug: "cassandra",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "Hadoop",
+			slug: "hadoop",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "RabbitMQ",
+			slug: "rabbitmq",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "Kafka",
+			slug: "apache-kafka",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "Blockchain",
+			slug: "blockchain",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "Administrateur Système",
+			slug: "system-administrator",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "Linux",
+			slug: "linux",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "Bash",
+			slug: "bash",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "Windows Server",
+			slug: "windows-server",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "PowerShell",
+			slug: "powershell",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "Langage de script",
+			slug: "scripting",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "Développement Logiciel",
+			slug: "sofware-development",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "TDD",
+			slug: "tdd",
+			description: "Test Driven Development",
+			level: "4"
+		},
+		{
+			name: "Microservices",
+			slug: "microservices",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "Clean Code",
+			slug: "clean-code",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "Java",
+			slug: "java",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "Kotlin",
+			slug: "kotlin",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "TypeScript",
+			slug: "typescript",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "Git",
+			slug: "git",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "Javascript",
+			slug: "javascript",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "Node.js",
+			slug: "node.js",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "Angular 1.x",
+			slug: "angular1x",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "MEAN",
+			slug: "mean-stack",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "React",
+			slug: "react",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "Vue.js",
+			slug: "",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "Svelte",
+			slug: "svelte",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "Python",
+			slug: "python",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "Django",
+			slug: "django",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "Google Go",
+			slug: "golang",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "Rust",
+			slug: "rust",
+			description: "",
+			level: "1"
+		},
+		{
+			name: "C#",
+			slug: "c#",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "Android",
+			slug: "android",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "Swift",
+			slug: "swift",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "Objective C",
+			slug: "objective-c",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "Apple iOS",
+			slug: "apple-ios",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "HTML",
+			slug: "html",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "CSS",
+			slug: "css",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "PHP",
+			slug: "php",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "Symfony",
+			slug: "symfony",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "Ruby on Rails",
+			slug: "ruby-on-rails",
+			description: "",
+			level: "2"
+		},
+		{
+			name: "Java",
+			slug: "java",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "C",
+			slug: "c",
+			description: "",
+			level: "2"
+		},
+		{
+			name: "C++",
+			slug: "c++",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "LISP",
+			slug: "lisp",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "Julia",
+			slug: "julia",
+			description: "",
+			level: "2"
+		},
+		{
+			name: "Adminitrateur Réseaux",
+			slug: "networking",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "Elixir",
+			slug: "elixir",
+			description: "",
+			level: "1"
+		},
+		{
+			name: "GitHub",
+			slug: "github",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "Gitlab",
+			slug: "gitlab",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "SEO",
+			slug: "seo",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "Agile",
+			slug: "agile",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "Gestion de Projet",
+			slug: "project-management",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "PRINCE 2",
+			slug: "prince-2",
+			description: "",
+			level: "2"
+		},
+		{
+			name: "PMP",
+			slug: "pmp",
+			description: "",
+			level: "2"
+		},
+		{
+			name: "Agile",
+			slug: "agile",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "Lean Six Sigma",
+			slug: "lean-six-sigma",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "JIRA",
+			slug: "jira",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "Redmine",
+			slug: "redmine",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "ITIL",
+			slug: "itil",
+			description: "Information Technology Infrastructure Library",
+			level: "3"
+		},
+		{
+			name: "OKR",
+			slug: "okr",
+			description: "Objectives and Key Results",
+			level: "4"
+		},
+		{
+			name: "Machine Learning",
+			slug: "machine-learning",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "Deep Learning",
+			slug: "deep-learning",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "Bayesian Network",
+			slug: "bayesian-network",
+			description: "",
+			level: "2"
+		},
+		{
+			name: "TensorFlow",
+			slug: "tensorflow",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "scikit-learn",
+			slug: "scikit-learn",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "Keras",
+			slug: "keras",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "PyTorch",
+			slug: "pytorch",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "Caffe",
+			slug: "caffe",
+			description: "",
+			level: "2"
+		},
+		{
+			name: "Data Scientist",
+			slug: "data-scientist",
+			description: "",
+			level: "2"
+		},
+		{
+			name: "R",
+			slug: "r",
+			description: "",
+			level: "2"
+		},
+		{
+			name: "Spark",
+			slug: "apache-spark",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "Sécurité",
+			slug: "security",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "Qualité Logicielle",
+			slug: "software-quality",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "ISTQB",
+			slug: "istqb",
+			description: "International Software Testing Qualifications Board",
+			level: "1"
+		},
+		{
+			name: "Excel",
+			slug: "microsoft-excel",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "Word",
+			slug: "microsoft-word",
+			description: "",
+			level: "4"
+		},
+		{
+			name: "Visio",
+			slug: "microsoft-visio",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "VS Code",
+			slug: "vscode",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "vim",
+			slug: "vim",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "Inkscape",
+			slug: "inkscape",
+			description: "",
+			level: "3"
+		},
+		{
+			name: "GIMP",
+			slug: "gimp",
+			description: "",
+			level: "3"
+		}
 	]
 }
 

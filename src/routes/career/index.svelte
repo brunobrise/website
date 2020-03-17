@@ -18,6 +18,7 @@
 	#career {
 		display: flex;
 		flex-direction: column;
+		padding-bottom:2em;
 	}
 
 	.title-cover {
@@ -177,6 +178,65 @@
 		font-size: 0.8em;
 	}
 
+	.tag-caption {
+		font-size: 0.5em;
+		margin-bottom: 1em;
+	}
+
+	.tag-caption .tag {
+		border-radius: 2px;
+		margin:0;
+	}
+
+	.tag {
+		display: inline-block;
+		background-color: var(--gray-dark);
+		color: var(--white);
+		padding: 0.2em 0.5em;
+		margin: 2px 1px;
+		border: none;
+		font-size: 1.3em;
+	}
+
+	.tag a {
+		text-decoration: none;
+	}
+
+	.button:hover {
+		background-color: var(--green);
+	}
+
+	#skill .level, .level0{
+		background-color: var(--gray-dark);
+	}
+
+	.level1, .tag-caption > .fundamental {
+		background-color: var(--blue-tint-1);
+		color: var(--gray);
+	}
+
+	.level1:hover {
+		background-color: var(--green);
+		color: var(--white);
+		animation-name: color-change-level1;
+	}
+
+	.level2, .tag-caption > .novice {
+		background-color: var(--blue-tint-2);
+	}
+
+	.level3, .tag-caption > .intermediate {
+		background-color: var(--blue-tint-3);
+	}
+
+	.level4, .tag-caption > .advanced {
+		background-color: var(--blue);
+	}
+
+	.level5, .tag-caption > .expert {
+		background-color: var(--red);
+	}
+
 	@media (min-width: 56em) {
 		.title-cover-inner {
 			max-width: 28em;
@@ -202,6 +262,10 @@
 
 		.experience-organization-cover {
 			height: 340px;
+		}
+
+		.tag-caption {
+			font-size: 0.8em;
 		}
 	}
 </style>
@@ -321,6 +385,27 @@
 						</div>
 					</div>
 					{/each}
+				</div>
+			</section>
+			<section id="skill">
+				<h2>Compétences</h2>
+				<ul class="tag-caption">
+					<li class="tag expert">Expert</li>
+					<li class="tag advanced">Avancé</li>
+					<li class="tag intermediate">Intermédiaire</li>
+					<li class="tag novice">Néophyte</li>
+					<li class="tag fundamental">Connaissances</li>
+				</ul>
+				<div class="skills">
+					<ul class="tags">
+						{#each career.skills as skill}
+						{#if skill.name != "" && skill.slug != ""}
+						<li class="tag level{skill.level} button">
+							<a href="blog/tags/{skill.slug}">{skill.name}</a>
+						</li>
+						{/if}
+						{/each}
+					</ul>
 				</div>
 			</section>
 		</div>
