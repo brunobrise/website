@@ -258,6 +258,22 @@ const career = {
 			},
 			date: "2011 - 2013"
 		}
+	],
+	licensesCertifications : [
+		{
+			organization: {
+				name: "Coursera Course Certificates",
+				logo: "organization-coursera.webp",
+				url: 'https://www.coursera.org'
+			},
+			topic: {
+				name: "Machine Learning (Stanford University)",
+				id: "Credential ID AA25UBNDDS7N",
+				url: "https://www.coursera.org/account/accomplishments/verify/AA25UBNDDS7N"
+			},
+			date: "Mai 2016",
+			date_expiration : ""
+		}
 	]
 }
 

@@ -115,7 +115,7 @@
 		font-size: 0.8em;
 	}
 
-	.experience-job > .date > .duration {
+	.experience-job > .date > .duration  {
 		float: right;
 		background-color: var(--gray-dark);
 		color: var(--white);
@@ -151,6 +151,15 @@
 		content: " \2022  "
 	}
 
+	.education > .right > .date > .expiration {
+		background-color: var(--gray-light);
+		color: var(--white);
+		margin-left: 0.5em;
+		padding:0 0.5em;
+		cursor: default;
+		border-radius: 3px;
+	}
+
 	.education {
 		display: flex;
 		flex-direction: row;
@@ -164,7 +173,7 @@
 		padding: 0.5em 0;
 	}
 
-	.education > .right > .level {
+	.education > .right > .diploma {
 		font-size: 0.8em;
 	}
 
@@ -265,6 +274,26 @@
 							<p class="organization">{education.name}</p>
 							<p class="diploma"><span class="level">{education.topic.level}</span> <span class="info"><a class="info" href="{education.topic.url}">{education.topic.id}</a></span></p>
 							<p class="date">{education.date}</p>
+						</div>
+					</div>
+					{/each}
+				</div>
+			</section>
+			<section id="license">
+				<div class="educations">
+					<h2>Licences et certifications</h2>	
+					{#each career.licensesCertifications as licenseCertification}
+					<div class="education">
+						<img class="logo" src="{licenseCertification.organization.logo}" alt="{licenseCertification.organization.name} logo">
+						<div class="right">
+							<p class="name">{licenseCertification.topic.name}</p>
+							<p class="organization">{licenseCertification.organization.name}</p>
+							<p class="diploma"><a class="info" href="{licenseCertification.topic.url}">{licenseCertification.topic.id}</a></p>
+							<p class="date">{licenseCertification.date}
+								{#if licenseCertification.date_expiration != ""}
+								<span class="expiration">Expire {licenseCertification.date_expiration}</span>
+								{/if}
+							</p>
 						</div>
 					</div>
 					{/each}
