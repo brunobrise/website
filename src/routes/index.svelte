@@ -80,7 +80,6 @@
 
 	.quote-author-image {
 		width: 72px;
-		height: 72px;
 		border-radius: 50%;
 		float: left;
 		padding-right: 1em;
