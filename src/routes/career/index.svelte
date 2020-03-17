@@ -45,9 +45,16 @@
 	.source-format {
 		display: inline-block;
 		list-style: none;
-		margin-top: 8px;		
+		margin-top: 8px;
 		margin-left: 1.5em;
 	}
+
+	.logo {
+		background-color: var(--white);
+		width: 48px;
+		padding: 4px;
+	}
+
 
 	.experiences {
 		display:flex;
@@ -55,7 +62,7 @@
 		flex-wrap: wrap;
 	}
 
-	.experience {
+	.experience, .education {
 		display:flex;
 		flex-direction: column;
 		width:100%;
@@ -80,13 +87,10 @@
 		background-repeat: no-repeat;
 	}
 
-	.organization-logo {
-		background-color: var(--white);
-		width: 48px;
+	#experiences .logo {
 		position: absolute;
 		bottom: -24px;
 		right: 16px;
-		padding: 4px;
 		border: 1px solid var(--silver);
 	}
 
@@ -101,12 +105,12 @@
 		padding: 1em;
 	}
 
-	.experience-job > .name {
+	.experience-job > .name, .education .name {
 		font-weight: 800;
 		font-size: 1.2em;
 	}
 
-	.experience-job > .date {
+	.experience-job > .date, .education > .right > .date {
 		color: var(--gray);
 		font-size: 0.8em;
 	}
@@ -142,8 +146,26 @@
 		content: "✔ "
 	}
 
-	.experience-job > .organization > .contract:before {
-		content: "\2022  "
+	.experience-job > .organization > .contract:before,
+	.education > .right > .diploma > .level:after {
+		content: " \2022  "
+	}
+
+	.education {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.education .logo {
+		width: 72px;
+	}
+
+	.education {
+		padding: 0.5em 0;
+	}
+
+	.education > .right > .level {
+		font-size: 0.8em;
 	}
 
 	@media (min-width: 56em) {
@@ -163,7 +185,7 @@
 			height: 24px;
 		}
 
-		.organization-logo {
+		.logo {
 			width: 72px;
 			bottom: -36px;
 			right: 28px;
@@ -209,7 +231,7 @@
 					<div class="experience">
 						<div class="experience-organization-cover" style="background-image: url({experience.organization.cover})">
 							<a href="{experience.organization.url}">
-								<img class="organization-logo" src="{experience.organization.logo}" alt="{experience.organization.name} logo">
+								<img class="logo" src="{experience.organization.logo}" alt="{experience.organization.name} logo">
 							</a>
 						</div>
 						<div class="experience-jobs">
@@ -223,6 +245,26 @@
 								{/if}
 							</div>
 							{/each}
+						</div>
+					</div>
+					{/each}
+				</div>
+			</section>
+			<section id="education" class="educations">
+				<h2>Formation</h2>
+				<div class="educations">
+					{#each career.educations as education}
+					<div class="education">
+						<div class="left">
+							<a href="{education.organization.url}">
+								<img class="logo" src="{education.organization.logo}" alt="{education.organization.name} logo">
+							</a>
+						</div>
+						<div class="right">
+							<p class="name">{education.topic.name}</p>
+							<p class="organization">{education.name}</p>
+							<p class="diploma"><span class="level">{education.topic.level}</span> <span class="info"><a class="info" href="{education.topic.url}">{education.topic.id}</a></span></p>
+							<p class="date">{education.date}</p>
 						</div>
 					</div>
 					{/each}

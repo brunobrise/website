@@ -226,6 +226,38 @@ const career = {
 				}
 			]
 		}
+	],
+	educations : [
+		{
+			name: "CESI Alternance",
+			organization: {
+				name: "CESI Aix en Provence",
+				logo: "organization-cesi.webp",
+				url: 'https://ecole-alternance.cesi.fr'
+			},
+			topic: {
+				name: "Responsable en ingénierie des logiciels",
+				id: "RNCP 54377",
+				level: "BAC+4",
+				url: 'https://reseau.intercariforef.org/formations/certification-54377.html'
+			},
+			date: "2013 - 2015"
+		},
+		{
+			name: "CESI Alternance",
+			organization: {
+				name: "CESI Aix en Provence",
+				logo: "organization-cesi.webp",
+				url: 'https://ecole-alternance.cesi.fr'
+			},
+			topic: {
+				name: "Gestionnaire Maintenance Support Informatique",
+				id: "RNCP 13374",
+				level: "BAC+2",
+				url: 'https://reseau.intercariforef.org/formations/certification-53280.html'
+			},
+			date: "2011 - 2013"
+		}
 	]
 }
 
