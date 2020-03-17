@@ -87,7 +87,7 @@
 		background-repeat: no-repeat;
 	}
 
-	#experiences .logo {
+	#experiences .logo, #volunteer .logo {
 		position: absolute;
 		bottom: -24px;
 		right: 16px;
@@ -294,6 +294,30 @@
 								<span class="expiration">Expire {licenseCertification.date_expiration}</span>
 								{/if}
 							</p>
+						</div>
+					</div>
+					{/each}
+				</div>
+			</section>
+			<section id="volunteer">	
+				<div class="experiences">
+					<h2>Expériences de bénévolat</h2>
+					{#each career.volunteerExperiences as volunteerExperience}
+					<div class="experience">
+						<div class="experience-organization-cover" style="background-image: url({volunteerExperience.organization.cover})">
+							<a href="{volunteerExperience.organization.url}">
+								<img class="logo" src="{volunteerExperience.organization.logo}" alt="{volunteerExperience.organization.name} logo">
+							</a>
+						</div>
+						<div class="experience-jobs">
+							<div class="experience-job">
+								<p class="name">{volunteerExperience.name}</p>
+								<p class="organization">{volunteerExperience.organization.name} <span class="contract">{volunteerExperience.type}</span></p>
+								<p class="date">{volunteerExperience.date}{#if volunteerExperience.duration != ""} <span class="duration">{volunteerExperience.duration}</span>{/if}</p>
+								{#if volunteerExperience.description != ""}
+								<p class="description description-wrap">{@html volunteerExperience.description}</p>
+								{/if}
+							</div>
 						</div>
 					</div>
 					{/each}

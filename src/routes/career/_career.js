@@ -274,6 +274,21 @@ const career = {
 			date: "Mai 2016",
 			date_expiration : ""
 		}
+	],
+	volunteerExperiences : [
+		{
+			name: "Intervenant",
+			organization: {
+				name: "100 000 entrepreneurs",
+				logo: "organization-100000entrepreneurs.webp",
+				url: 'https://100000entrepreneurs.com',
+				cover: 'organization-100000entrepreneurs-cover.webp'
+			},
+			type: "Education",
+			date: "Depuis Mar 2016",
+			duration: "",
+			description: "L’association 100 000 entrepreneurs diffuse l’esprit et la culture d’entreprendre auprès des jeunes de 13 à 25 ans en envoyant des entrepreneurs témoigner dans les collèges, lycées et établissements de l’enseignement supérieur."
+		}
 	]
 }
 
