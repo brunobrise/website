@@ -101,12 +101,6 @@
 	}
 
 	@media screen and (min-width:56em) {
-		.container {
-			padding: 0 24px;
-			max-width: 56em;
-			margin:0 auto;
-		}
-
 		.section-title {
 			padding: 0 24px;
 		}

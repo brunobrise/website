@@ -8,6 +8,15 @@ const site = {
 				'footer',
 				'sidebar'
 			]
+		},
+		{
+			name: 'Parcours',
+			slug: 'career',
+			location: [
+				'header',
+				'footer',
+				'sidebar'
+			]
 		}
 	],
 	social: {

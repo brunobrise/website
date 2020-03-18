@@ -1,10 +1,18 @@
 :root {
 	--red: #A72608;
+	--green: #4ba265;
 	--blue: #08415C;
+	--blue-tint-3: #5293af;
+	--blue-light: #4B88A2;
+	--blue-tint-2: #a2c5d4;
+	--blue-tint-1: #e5eff3;
+	--blue-tint-0: #f3f7f9;
 	--blue-transparent: #08415C77;
 	--black: #070707;
-	--silver: #C2C1C2;
+	--gray-dark: #222222;
 	--gray: #515052;
+	--gray-light: #787878;
+	--silver: #C2C1C2;
 	--white-whisper: #EAEAEA;
 	--white: #FFF;
 	--white-transparent: #FFFFFF77;
@@ -35,13 +43,14 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	margin: 0 0 0.8em 0;
+	margin: 0 0 0.5em 0;
 	font-weight: 400;
 }
 
 h1 {
 	font-family: var(--font-family-title);
 	font-size: 2em;
+	font-weight: 500;
 }
 
 h2 {
@@ -62,11 +71,23 @@ code {
 	border-radius: 2px;
 }
 
+svg {
+	height: 48px;
+	width: 48px;
+	fill: var(--white);
+}
+
 #sapper {
 	display: flex;
 	flex-direction: column;
 	min-height: 100%;
 	align-content: flex-start;
+}
+
+.container {
+	padding: 0 24px;
+	max-width: 56em;
+	margin:0 auto;
 }
 
 .button {
@@ -103,4 +124,15 @@ code {
 @keyframes background-color-change-blue-to-red {
 	from { background-color: var(--blue); }
 	to { background-color: var(--red); }
+}
+
+@keyframes color-change-level1 {
+	from {
+		background-color: var(--blue-tint-2);
+		color: var(--gray);
+	}
+	to {
+		background-color: var(--red);
+		color: var(--white);
+	}
 }
