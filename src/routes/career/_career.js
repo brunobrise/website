@@ -11,7 +11,7 @@ const career = {
 				{
 					name: "Consultant DevOps",
 					contract: "Auto-entreprise",
-					date: "Depuis Fév 2015",
+					date: "Depuis Févr. 2015",
 					duration: "",
 					localisation: "Paris, France",
 					description: `
@@ -33,7 +33,7 @@ const career = {
 				{
 					name: "Ingénieur DevOps - SRE",
 					contract: "CDI",
-					date: "Sep 2018 - May 2020",
+					date: "Sept. 2018 - Mai 2020",
 					duration: "1 an 8 mois",
 					localisation: "Paris 15, France",
 					description: `
@@ -51,7 +51,7 @@ const career = {
 				{
 					name: "Consultant DevOps",
 					contract: "Indépendant",
-					date: "Sep 2017 – Sep 2018",
+					date: "Sept. 2017 – Sept. 2018",
 					duration: "1 an",
 					localisation: "Paris 08, France",
 					description: `
@@ -103,7 +103,7 @@ const career = {
 				{
 					name: "Consultant Devops",
 					contract: "Indépendant",
-					date: "Sep 2017 - Apr 2019",
+					date: "Sept. 2017 - Avr. 2019",
 					duration: "1 an 7 mois",
 					localisation: "Paris 08, France",
 					description: `
@@ -122,9 +122,9 @@ const career = {
 			},
 			jobs: [
 				{
-					name: "Software QA Consultant",
+					name: "Consultant Test Logiciel",
 					contract: "Indépendant",
-					date: "Aug 2017 - Sept 2017",
+					date: "Août 2017 - Sept. 2017",
 					duration: "2 mois",
 					localisation: "Paris 08, France",
 					description: `Tests fonctionnels et exploratifs de 80+ applications dans les secteurs suivants :
@@ -149,7 +149,7 @@ const career = {
 				{
 					name: "Consultant Test Logiciel",
 					contract: "Indépendant",
-					date: "Feb 2016 - Sep 2017",
+					date: "Févr. 2016 - Sept. 2017",
 					duration: "1 an 7 mois",
 					localisation: "Marseille, France",
 					description: `Tests fonctionnels et exploratifs de 80+ applications dans les secteurs suivants :
@@ -176,9 +176,9 @@ const career = {
 			},
 			jobs: [
 				{
-					name: "Developer",
+					name: "Développeur logiciel",
 					contract: "CDD - Alternance",
-					date: "Sep 2013 - Sep 2015",
+					date: "Sept. 2013 - Sept. 2015",
 					duration: "2 ans",
 					localisation: "Avignon, France",
 					description: `
@@ -203,9 +203,9 @@ const career = {
 			},
 			jobs: [
 				{
-					name: "Assistant IT Manager",
+					name: "Assistant Responsable Informatique",
 					contract: "CDD - Alternance",
-					date: "Sep 2011 - Sep 201",
+					date: "Sept. 2011 - Sept. 2013",
 					duration: "2 ans",
 					localisation: "Aix-en-Provence, France",
 					description: `
@@ -285,7 +285,7 @@ const career = {
 				cover: 'organization-100000entrepreneurs-cover.webp'
 			},
 			type: "Education",
-			date: "Depuis Mar 2016",
+			date: "Depuis Mars 2016",
 			duration: "",
 			description: "L’association 100 000 entrepreneurs diffuse l’esprit et la culture d’entreprendre auprès des jeunes de 13 à 25 ans en envoyant des entrepreneurs témoigner dans les collèges, lycées et établissements de l’enseignement supérieur."
 		}
