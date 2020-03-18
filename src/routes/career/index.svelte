@@ -185,7 +185,7 @@
 	}
 
 	.tag-caption {
-		font-size: 0.5em;
+		font-size: 0.6em;
 		margin-bottom: 1em;
 	}
 
@@ -201,7 +201,7 @@
 		padding: 0.2em 0.5em;
 		margin: 2px 1px;
 		border: none;
-		font-size: 1.3em;
+		font-size: 1em;
 	}
 
 	.tag a {
