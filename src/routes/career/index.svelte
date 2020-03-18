@@ -249,6 +249,27 @@
 		width: calc(100% - 3em);
 	}
 
+	.topic {
+		display: block;
+		background-color: var(--gray-dark);
+		color: var(--white);
+		padding: 0.2em 0.5em;
+		margin: 2px;
+		border-radius: 3px;
+	}
+
+	.topic:hover {
+		background-color: var(--green);
+	}
+
+	.topics a {
+		text-decoration: none;
+	}
+
+	.topics a .name {
+		text-decoration: underline;
+	}
+
 	.level1, .tag-caption > .fundamental {
 		background-color: var(--blue-tint-1);
 		color: var(--gray);
@@ -322,6 +343,19 @@
 
 		.recommendation .message {
 			height: 100%;
+		}
+		
+		#language > .topics {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-items: center;
+			align-items: stretch;
+			justify-content: space-between;
+		}
+
+		#language > .topics > .topic {
+			width: 31%;
 		}
 	}
 </style>
@@ -489,6 +523,23 @@
 					</div>
 					{/each}
 				</div>
+			</section>
+			<section id="language">
+				<h2>Langues</h2>
+				<ul class="tag-caption">
+					<li class="tag expert">Courant</li>
+					<li class="tag advanced">Avancé</li>
+					<li class="tag intermediate">Intermédiaire</li>
+					<li class="tag novice">Élémentaire</li>
+					<li class="tag fundamental">Débutant</li>
+				</ul>
+				<ul class="topics">
+					{#each career.languages as language}
+					<li class="topic level{language.level}">
+						<span class="name">{language.name}</span>
+					</li>
+					{/each}
+				</ul>
 			</section>
 		</div>
 	</div>

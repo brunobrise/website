@@ -963,6 +963,32 @@ const career = {
 			date: "31 juillet 2017",
 			content: "J'ai rarement rencontré un professionnel aussi brillant que Bruno. il possède une grande capacité d'écoute, d'adaptation, et il est souvent force de propositions. Son parcours ne m'étonne pas, il a toutes les qualités d'un leader !"
 		}
+	],
+	languages : [
+		{
+			name: "Français",
+			level: "5"
+		},
+		{
+			name: "Crioulu (português)",
+			level: "5"
+		},
+		{
+			name: "English",
+			level: "4"
+		},
+		{
+			name: "Español",
+			level: "2"
+		},
+		{
+			name: "官話, Mandarin",
+			level: "1"
+		},
+		{
+			name: "Thaï",
+			level: "1"
+		},
 	]
 }
 
