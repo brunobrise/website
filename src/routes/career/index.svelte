@@ -15,6 +15,10 @@
 		font-weight: 600;
 	}
 
+	section  {
+		padding-bottom: 1em;
+	}
+
 	#career {
 		display: flex;
 		flex-direction: column;
@@ -245,8 +249,10 @@
 	}
 
 	.recommendation .message {
-		margin: 1em;
-		width: calc(100% - 3em);
+		margin: 1em auto;
+		width: 80%;
+		text-align: justify;
+		word-spacing:-2px;
 	}
 
 	.topic {
