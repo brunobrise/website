@@ -92,9 +92,9 @@
 		background-repeat: no-repeat;
 	}
 
-	#experiences .logo, #volunteer .logo {
+	.experience .logo {
 		position: absolute;
-		bottom: -24px;
+		bottom: -12px;
 		right: 16px;
 		border: 1px solid var(--silver);
 	}
@@ -325,7 +325,7 @@
 			height: 24px;
 		}
 
-		.logo {
+		.experience .logo {
 			width: 72px;
 			bottom: -36px;
 			right: 28px;
