@@ -57,13 +57,13 @@
 	}
 
 
-	.experiences {
+	.experiences, .recommendations {
 		display:flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 	}
 
-	.experience, .education {
+	.experience, .education, .recommendation {
 		display:flex;
 		flex-direction: column;
 		width:100%;
@@ -106,12 +106,16 @@
 		padding: 1em;
 	}
 
-	.experience-job > .name, .education .name {
+	.experience-job > .name,
+	.education .name,
+	.recommendation .name {
 		font-weight: 800;
-		font-size: 1.2em;
+		/* font-size: 1.2em; */
 	}
 
-	.experience-job > .date, .education > .right > .date {
+	.experience-job > .date,
+	.education > .right > .date ,
+	.recommendation > .top  > .right > .date {
 		color: var(--gray);
 		font-size: 0.8em;
 	}
@@ -148,7 +152,8 @@
 	}
 
 	.experience-job > .organization > .contract:before,
-	.education > .right > .diploma > .level:after {
+	.education > .right > .diploma > .level:after,
+	.recommendation > .top > .right > .organization > .relationship:before {
 		content: " \2022  "
 	}
 
@@ -161,17 +166,14 @@
 		border-radius: 3px;
 	}
 
-	.education {
+	.education, .recommendation {
 		display: flex;
 		flex-direction: row;
-	}
-
-	.education .logo {
-		width: 72px;
-	}
-
-	.education {
 		padding: 0.5em 0;
+	}
+
+	.education .logo, .recommendation .picture {
+		width: 72px;
 	}
 
 	.education > .right > .diploma {
@@ -208,6 +210,43 @@
 
 	#skill .level, .level0{
 		background-color: var(--gray-dark);
+	}
+
+	.recommendations {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.recommendation {
+		display: flex;
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	.recommendation .top {
+		display: flex;
+		flex-direction: row;
+		padding: 1em;
+		border-bottom: 1px solid var(--white-whisper);
+	}
+
+	.recommendation .left {
+		padding-right: 1em;
+	}
+
+	.recommendation .picture {
+		width: 96px;
+		border-radius: 50%;
+		/* border: 1px solid var(--gray-light); */
+	}
+
+	.recommendation .organization {
+		font-size: 0.8em;
+	}
+
+	.recommendation .message {
+		margin: 1em;
+		width: calc(100% - 3em);
 	}
 
 	.level1, .tag-caption > .fundamental {
@@ -266,6 +305,23 @@
 
 		.tag-caption {
 			font-size: 0.8em;
+		}
+
+		.recommendations {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-items: center;
+			align-items: stretch;
+			justify-content: space-between;
+		}
+
+		.recommendation {
+			width: 49%;
+		}
+
+		.recommendation .message {
+			height: 100%;
 		}
 	}
 </style>
@@ -406,6 +462,32 @@
 						{/if}
 						{/each}
 					</ul>
+				</div>
+			</section>
+			<section id="recommendation">		
+				<h2>Recommendations</h2>
+				<div class="recommendations">
+					{#each career.recommendations as recommendation, i}
+					<div id="recommendation-{i+1}" class="recommendation">
+						<div class="top">
+							<div class="left">
+								<a href="{recommendation.person.url}">
+									<img class="picture" src="{recommendation.person.picture}" alt="{recommendation.person.name} picture">
+								</a>
+							</div>
+							<div class="right">
+								<p class="name">{recommendation.person.name}</p>
+								<p class="organization">{recommendation.organization.name} <span class="relationship">{recommendation.relationship.role} {#if recommendation.relationship.organization != recommendation.organization.name} de {recommendation.relationship.organization}{:else}au sein de la même entreprise{/if}</span></p>
+								<p class="date">{recommendation.date}</p>
+							</div>
+						</div>
+						{#if recommendation.description != ""}
+						<div class="message">
+							<p class="description description-wrap">{@html recommendation.content}</p>
+						</div>
+						{/if}
+					</div>
+					{/each}
 				</div>
 			</section>
 		</div>

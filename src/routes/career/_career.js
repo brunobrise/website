@@ -885,6 +885,84 @@ const career = {
 			description: "",
 			level: "3"
 		}
+	],
+	recommendations : [
+		{
+			person: {
+				name: "Frédéric COELHO",
+				picture: "people-frederic-coelho.webp",
+				url: 'https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-coelho-b9976346/'
+			},
+			title: "IT Manager",
+			relationship: {
+				role: "Responsable",
+				organization: "Wynd"
+			},
+			organization: {
+				name: "Wynd",
+				logo: "organization-wynd.webp",
+				url: 'https://wynd.eu'
+			},
+			date: "8 février 2018",
+			content: "Bruno isn't just a brilliant and precise IT Architect but also an inspiring person. Strong, knowledgeable and responsible IT Architect. Bruno is a organized and customer-service oriented perfectionist, has no problem to work hard when necessary. Working at Wynd is most challenging, and he battled the impediments. On account of his mature approach to his responsibilities, I often thought of Bruno as a professional I could always rely upon to get the job done. I absolutely would recommend him as IT Architect."
+		},
+		{
+			person: {
+				name: "Eugénie VACCARO",
+				picture: "people-eugenie-vaccaro.webp",
+				url: 'https://www.linkedin.com/in/eug%C3%A9nie-vaccaro-418baa109/'
+			},
+			title: "Psychologist",
+			relationship: {
+				role: "Cliente",
+				organization: "ectoCo"
+			},
+			organization: {
+				name: "JetPackData",
+				logo: "organization-jetpackdata.webp",
+				url: 'https://jetpackdata.com'
+			},
+			date: "3 novembre 2017",
+			content: "C'est la 2de fois que nous faisons appel à Bruno et nous démarrons ce nouveau projet en toute sérénité. Lors de la première mission que nous lui avons confiée il a fait preuve d'un professionnalisme, d'une expertise et d'une rigueur vraiment rares. Je le recommande vivement et sans hésitation !"
+		},
+		{
+			person: {
+				name: "Shankar ARUL",
+				picture: "people-shankar-arul.webp",
+				url: 'https://www.linkedin.com/in/shankararul/'
+			},
+			title: "Head of Data Science & CEO",
+			relationship: {
+				role: "Client",
+				organization: "ectoCo"
+			},
+			organization: {
+				name: "JetPackData",
+				logo: "organization-jetpackdata.webp",
+				url: 'https://jetpackdata.com'
+			},
+			date: "1 novembre 2017",
+			content: "Bruno helped me out packaging an On premise image of jetpackdata.com. It was a real pleasure working with Bruno - extremely methodical and organized in his approach. In terms of dedication, professionalism and customer satisfaction, it is hard to compete with him. He went above and beyond what was requested of him to ensure that he delivered a 100% well tested and reliable deliverable.I look forward to working with him again in the future."
+		},
+		{
+			person: {
+				name: "Richard RISI",
+				picture: "people-richard-risi.webp",
+				url: 'https://www.linkedin.com/in/richard-risi-88464426/'
+			},
+			title: "Project manager",
+			relationship: {
+				role: "Responsable d'un autre service",
+				organization: "Lustucru Rivoire & Carret - Groupe PASTACORP"
+			},
+			organization: {
+				name: "Lustucru Rivoire & Carret - Groupe PASTACORP",
+				logo: "organization-lustucru.webp",
+				url: 'https://www.lustucru.fr'
+			},
+			date: "31 juillet 2017",
+			content: "J'ai rarement rencontré un professionnel aussi brillant que Bruno. il possède une grande capacité d'écoute, d'adaptation, et il est souvent force de propositions. Son parcours ne m'étonne pas, il a toutes les qualités d'un leader !"
+		}
 	]
 }
 
