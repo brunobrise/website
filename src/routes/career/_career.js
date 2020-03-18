@@ -11,13 +11,13 @@ const career = {
 				{
 					name: "Consultant DevOps",
 					contract: "Auto-entreprise",
-					date: "Depuis Févr. 2015",
-					duration: "",
+					start: "2015-02",
+					end: "",
 					localisation: "Paris, France",
 					description: `
 						Architecture Cloud
-						Opérations et Développement (SRE)
-						Development Fullstack
+						Services & Opérations (SRE)
+						Développement Fullstack
 					`
 				}
 			],
@@ -33,8 +33,8 @@ const career = {
 				{
 					name: "Ingénieur DevOps - SRE",
 					contract: "CDI",
-					date: "Sept. 2018 - Mai 2020",
-					duration: "1 an 8 mois",
+					start: "2018-09",
+					end: '2020-05',
 					localisation: "Paris 15, France",
 					description: `
 						Migration de l'infrastructure existante vers le cloud :<br>
@@ -51,14 +51,14 @@ const career = {
 				{
 					name: "Consultant DevOps",
 					contract: "Indépendant",
-					date: "Sept. 2017 – Sept. 2018",
-					duration: "1 an",
+					start: "2017-09",
+					end: '2018-09',
 					localisation: "Paris 08, France",
 					description: `
 					Opérations sur l'infrastructure :
 					<ul>
 						<li>Augmentation de la haute disponibilité</li>
-						<li>Stabilisation du cluster base de données</li>
+						<li>Stabilisation du cluster de base de données</li>
 						<li>Gestion des communications sécurisées (VPN)</li>
 					</ul>
 					Développement des services DevOps :
@@ -81,8 +81,8 @@ const career = {
 				{
 					name: "Fondateur & Président",
 					contract: "Gérant",
-					date: "Depuis 2018",
-					duration: "",
+					start: "2018-01",
+					end: "",
 					localisation: "Global",
 					description: `
 					Étude des algorithmes d'apprentissage automatique (Machine Learning)<br>
@@ -103,8 +103,8 @@ const career = {
 				{
 					name: "Consultant Devops",
 					contract: "Indépendant",
-					date: "Sept. 2017 - Avr. 2019",
-					duration: "1 an 7 mois",
+					start: "2017-09",
+					end: '2019-04',
 					localisation: "Paris 08, France",
 					description: `
 					Conseil sur les technologies Cloud<br>
@@ -124,8 +124,8 @@ const career = {
 				{
 					name: "Consultant Test Logiciel",
 					contract: "Indépendant",
-					date: "Août 2017 - Sept. 2017",
-					duration: "2 mois",
+					start: "2017-08",
+					end: '2017-09',
 					localisation: "Paris 08, France",
 					description: `Tests fonctionnels et exploratifs de 80+ applications dans les secteurs suivants :
 					<ul>
@@ -149,8 +149,8 @@ const career = {
 				{
 					name: "Consultant Test Logiciel",
 					contract: "Indépendant",
-					date: "Févr. 2016 - Sept. 2017",
-					duration: "1 an 7 mois",
+					start: "2016-02",
+					end: '2017-09',
 					localisation: "Marseille, France",
 					description: `Tests fonctionnels et exploratifs de 80+ applications dans les secteurs suivants :
 					<ul>
@@ -178,8 +178,8 @@ const career = {
 				{
 					name: "Développeur logiciel",
 					contract: "CDD - Alternance",
-					date: "Sept. 2013 - Sept. 2015",
-					duration: "2 ans",
+					start: "2013-09",
+					end: '2015-09',
 					localisation: "Avignon, France",
 					description: `
 						Développement d'un outil de gestion de stock :
@@ -205,8 +205,8 @@ const career = {
 				{
 					name: "Assistant Responsable Informatique",
 					contract: "CDD - Alternance",
-					date: "Sept. 2011 - Sept. 2013",
-					duration: "2 ans",
+					start: "2011-09",
+					end: '2013-09',
 					localisation: "Aix-en-Provence, France",
 					description: `
 						Chargé du support technique, je veille à garantir un service de qualité aux utilisateurs de l'entreprise.<br><br>
@@ -241,7 +241,8 @@ const career = {
 				level: "BAC+4",
 				url: 'https://reseau.intercariforef.org/formations/certification-54377.html'
 			},
-			date: "2013 - 2015"
+			start: "2013-09",
+			end: '2015-09'
 		},
 		{
 			name: "CESI Alternance",
@@ -256,7 +257,8 @@ const career = {
 				level: "BAC+2",
 				url: 'https://reseau.intercariforef.org/formations/certification-53280.html'
 			},
-			date: "2011 - 2013"
+			start: "2011-09",
+			end: '2013-09'
 		}
 	],
 	licensesCertifications : [
@@ -271,7 +273,8 @@ const career = {
 				id: "Credential ID AA25UBNDDS7N",
 				url: "https://www.coursera.org/account/accomplishments/verify/AA25UBNDDS7N"
 			},
-			date: "Mai 2016",
+			start: "Mai 2016",
+			end: "",
 			date_expiration : ""
 		}
 	],
@@ -285,8 +288,8 @@ const career = {
 				cover: 'organization-100000entrepreneurs-cover.webp'
 			},
 			type: "Education",
-			date: "Depuis Mars 2016",
-			duration: "",
+			start: "2016-03",
+			end: "",
 			description: "L’association 100 000 entrepreneurs diffuse l’esprit et la culture d’entreprendre auprès des jeunes de 13 à 25 ans en envoyant des entrepreneurs témoigner dans les collèges, lycées et établissements de l’enseignement supérieur."
 		}
 	],

@@ -7,7 +7,33 @@
 </script>
 
 <script>
+	import * as moment from 'moment';
+	
 	export let career;
+
+	moment.locale('fr');
+
+	function dateForHuman(date) {
+		return moment(date).format('MMM YYYY');
+	}
+
+	function durationBetween(startDate, endDate) {
+		const start = moment(startDate, 'YYYY-MM');
+		let end = moment();
+		if (endDate !== "") end = moment(new Date(endDate), 'YYYY-MM');
+		const months = end.diff(start, 'months');
+		const years = end.diff(start, 'years');
+
+		let duration = '';
+
+		if (months > 11) {
+			duration += years + (years > 1 ? ' ans ' : ' an ');
+			if (months % 12 > 0) duration += months % 12 + ' mois';
+		}
+		else duration += (months+1) + ' mois';
+
+		return duration
+	}
 </script>
 
 <style>
@@ -122,6 +148,7 @@
 	.recommendation > .top  > .right > .date {
 		color: var(--gray);
 		font-size: 0.8em;
+		text-transform: capitalize;
 	}
 
 	.experience-job > .date > .duration  {
@@ -134,8 +161,12 @@
 		font-size: 1em;
 		cursor: default;
 		border-radius: 3px;
+		text-transform: lowercase;
 	}
 
+	.experience-job > .date > .ongoing  {
+		background-color: var(--green);
+	}
 	.experience-job > .description {
 		margin-top: 0.5em;
 		padding: 0.2em 0 0.2em 0.5em;
@@ -413,7 +444,11 @@
 							<div class="experience-job">
 								<p class="name">{job.name}</p>
 								<p class="organization">{experience.organization.name} <span class="contract">{job.contract}</span></p>
-								<p class="date">{job.date}{#if job.duration != ""} <span class="duration">{job.duration}</span>{/if}</p>
+								<p class="date">
+								{#if job.end != ""}{dateForHuman(job.start)} - {dateForHuman(job.end)} <span class="duration">{durationBetween(job.start, job.end)}</span>
+								{:else}Depuis {dateForHuman(job.start)}
+								 <span class="duration ongoing">{durationBetween(job.start, job.end)}</span>
+								{/if}</p>
 								{#if job.description != ""}
 								<p class="description description-wrap">{@html job.description}</p>
 								{/if}
@@ -478,7 +513,11 @@
 							<div class="experience-job">
 								<p class="name">{volunteerExperience.name}</p>
 								<p class="organization">{volunteerExperience.organization.name} <span class="contract">{volunteerExperience.type}</span></p>
-								<p class="date">{volunteerExperience.date}{#if volunteerExperience.duration != ""} <span class="duration">{volunteerExperience.duration}</span>{/if}</p>
+								<p class="date">
+								{#if volunteerExperience.end != ""}{dateForHuman(volunteerExperience.start)} - {dateForHuman(volunteerExperience.end)} <span class="duration">{durationBetween(volunteerExperience.start, volunteerExperience.end)}</span>
+								{:else}Depuis {dateForHuman(volunteerExperience.start)}
+								 <span class="duration ongoing">{durationBetween(volunteerExperience.start, volunteerExperience.end)}</span>
+								{/if}</p>
 								{#if volunteerExperience.description != ""}
 								<p class="description description-wrap">{@html volunteerExperience.description}</p>
 								{/if}
