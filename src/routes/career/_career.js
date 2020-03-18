@@ -989,6 +989,58 @@ const career = {
 			name: "Thaï",
 			level: "1"
 		},
+	],
+	interests : [
+		{
+			name: "Développement personnel",
+			description: "Prise de conscience de ma priorité et des valeurs associées.",
+			url: ""
+		},
+		{
+			name: "Voyages",
+			description: "Découverte de l'Amérique du sud et reprise de l'exploration de l'Asie.",
+			url: ""
+		},
+		{
+			name: "Écriture",
+			description: "Rédaction régulière et consistante. Publication d'un livre sur la condition humaine.",
+			url: ""
+		},
+		{
+			name: "Photographie",
+			description: "Maîtrise des techniques de prise de vue. Plus particulièrement, le portrait et le mouvement.",
+			url: "https://www.instagram.com/brisebruno/"
+		},
+		{
+			name: "Course à pied",
+			description: "Entraînement pragmatique à la préparation du premier marathon.",
+			url: "https://www.strava.com/athletes/brunobrise"
+		},
+		{
+			name: "Randonnée",
+			description: "Marche sur les sentiers battus aux 4 coins de la France.",
+			url: ""
+		},
+		{
+			name: "Parachutisme",
+			description: "Réalisation d'une dizaine de sauts pour obtenir le brevet A.",
+			url: "https://www.chutelibre.net/progression.html"
+		},
+		{
+			name: "Diététique",
+			description: "Cadrage de mon régime alimentaire ave la préparation de meilleurs plats, sans sacrifier le goût.",
+			url: ""
+		},
+		{
+			name: "Impression 3D",
+			description: "Conception, impression et affinage d'objets de tout type de matériaux.",
+			url: "https://www.thingiverse.com/brunobrise"
+		},
+		{
+			name: "Ukulele",
+			description: "Exercices d'un répertoire de chansons iconiques. En faire un accessoire de voyage.",
+			url: ""
+		}
 	]
 }
 

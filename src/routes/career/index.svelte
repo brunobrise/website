@@ -270,6 +270,11 @@
 		text-decoration: underline;
 	}
 
+	.topic .description {
+		display: block;
+		font-style: italic;
+	}
+
 	.level1, .tag-caption > .fundamental {
 		background-color: var(--blue-tint-1);
 		color: var(--gray);
@@ -538,6 +543,26 @@
 					<li class="topic level{language.level}">
 						<span class="name">{language.name}</span>
 					</li>
+					{/each}
+				</ul>
+			</section>
+			<section id="interest">
+				<h2>Centres d’intérêt</h2>
+				<ul class="topics">
+					{#each career.interests as interest}
+					{#if interest.url !== ""}
+						<a href="{interest.url}" target="_blank" rel="noopener">
+							<li class="topic">
+								<span class="name">{interest.name}</span>
+								<span class="description">{interest.description}</span>
+							</li>
+						</a>
+					{:else}
+						<li class="topic">
+							<span class="name">{interest.name}</span>
+							<span class="description">{interest.description}</span>
+						</li>
+					{/if}
 					{/each}
 				</ul>
 			</section>
