@@ -3,7 +3,7 @@
 	"theme_color": "#333333",
 	"name": "Bruno Brise Website",
 	"short_name": "Bruno Brise",
-	"display": "minimal-ui",
+	"display": "fullscreen",
 	"start_url": "/",
 	"icons": [
 		{
