@@ -1,5 +1,5 @@
 const site = {
-	title: 'BRUNO BRISE',
+	title: 'Bruno BriSe.',
 	navigation: [
 		{
 			name: 'Accueil',
