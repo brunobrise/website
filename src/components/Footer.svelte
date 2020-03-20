@@ -62,7 +62,7 @@
 		padding: 1em 0;
 	}
 
-	@media screen and (min-width: 56em) {
+	@media screen and (min-width: 72em) {
 		.footer-inner {
 			flex-wrap: nowrap;
 		}

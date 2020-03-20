@@ -39,8 +39,7 @@
 
 <style>
 	main {
-		box-sizing: border-box;
-		flex: 1 0 auto;
+		padding: 6.5em 1.5em 3em;
 	}
 
 	#gotop {
@@ -59,6 +58,13 @@
 		font-weight: 900;
 		font-size: 1.6em;
 		line-height: 1.8em;
+	}
+
+	@media screen and (min-width: 72em) {
+		main {
+			height: 100vh;
+			padding: 0 5em;
+		}
 	}
 </style>
 

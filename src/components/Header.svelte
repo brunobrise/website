@@ -16,7 +16,7 @@
 		text-decoration: none;
 	}
 
-	.header, .sidebar {	
+	.header, .sidebar {
 		font-family: var(--font-family-header);
 		font-size: 16px;
 		font-weight: 600;
@@ -51,7 +51,7 @@
 	}
 
 	.header-nav-item {
-		padding:  0.2em 0.5em;
+		padding: 0.5em;
 	}
 
 	.header-nav-item:hover {
@@ -59,7 +59,7 @@
 		animation-name: color-change-black-to-silver;
 		animation-duration: 350ms;
 	}
-
+	
 
 	.header-inner, .sidebar-inner {
 		display: flex;
@@ -176,7 +176,7 @@
 		color: var(--red);
 	}
 
-	@media screen and (min-width: 56em) {
+	@media screen and (min-width: 72em) {
 		.header-inner, .sidebar-inner {
 			padding-left: 40px;
 			padding-right: 40px;

@@ -84,12 +84,6 @@ svg {
 	align-content: flex-start;
 }
 
-.container {
-	padding: 0 24px;
-	max-width: 56em;
-	margin:0 auto;
-}
-
 .button {
 	font-family: var(--font-family-button);
 	display: inline-block;

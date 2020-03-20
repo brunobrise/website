@@ -339,7 +339,7 @@
 		background-color: var(--red);
 	}
 
-	@media (min-width: 56em) {
+	@media (min-width: 72em) {
 		.title-cover-inner {
 			max-width: 28em;
 			margin:0 auto;
