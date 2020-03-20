@@ -17,8 +17,8 @@
 	--white: #FFF;
 	--white-transparent: #FFFFFF77;
 
-	--font-family-default: 'Chivo', Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	--font-family-header: 'Montserrat', Helvetica, Arial, sans-serif;
+	--font-family-default: 'Lato', Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	--font-family-header: 'Noto Sans JP', Helvetica, Arial, sans-serif;
 	--font-family-button: 'Archivo', Georgia, Times, serif;
 	--font-family-title: 'Playfair Display', Georgia, Times, serif;
 }
