@@ -1,5 +1,6 @@
 <style>
 	footer {
+		display: none;
 		flex-shrink: 0;
 		background-color: var(--black);
 		color: var(--white);
