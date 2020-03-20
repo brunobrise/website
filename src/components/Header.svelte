@@ -17,6 +17,10 @@
 	}
 
 	.header, .sidebar {
+		position: absolute;
+		top:0;
+		left:0;
+		width: 100vw;		
 		font-family: var(--font-family-header);
 		font-size: 16px;
 		font-weight: 600;
