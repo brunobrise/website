@@ -16,11 +16,12 @@
 		text-decoration: none;
 	}
 
-	.header, .sidebar {
+	.header, .sidebar {	
 		font-family: var(--font-family-header);
 		font-size: 16px;
-		font-weight: 300;
+		font-weight: 600;
 		width: 100%;
+		z-index: 50;
 	}
 
 	/* clearfix */
@@ -33,6 +34,7 @@
 	.header-nav {
 		display: none;
 		margin-left: auto;
+		align-items: center;
 	}
 
 	.header-nav-inner {
@@ -62,12 +64,18 @@
 	.header-inner, .sidebar-inner {
 		display: flex;
 		box-sizing: border-box;
-		padding: 20px 30px;
+		padding: 1em 1em 0;
+	}
+
+	.header-title, .sidebar-title {
+		padding: 0.3em;
+		border: 2px solid var(--black);
+		border-radius: 5px;
 	}
 
 	.header-branding, .sidebar-branding {
 		color: var(--black);
-		font-size: 2em;
+		font-size: 1em;
 		font-weight: bolder;
 		text-align: left;
 		-webkit-box-pack: start;
@@ -76,6 +84,18 @@
 		flex: 1 1 auto;
 		min-width: 0;
 		max-width: 100%;
+	}
+
+	.header-branding:hover, .sidebar-branding:hover {
+		color: #00000055;
+	}
+
+	.header-branding-sub, .sidebar-branding-sub {
+		color: #00000055;
+	}
+
+	.header-branding-sub:hover, .sidebar-branding-sub:hover {
+		color: var(--black);
 	}
 
 	.header-branding:hover, .sidebar-branding:hover {
@@ -119,6 +139,8 @@
 
 	.sidebar-nav .button {
 		margin-top:1em;
+		border-radius: 5px;
+		border: 3px solid var(--gray-dark)
 	}
 
 	.sidebar-nav-item {
@@ -184,7 +206,7 @@
 <sidebar class="sidebar" transition:fade ={{duration: 500, opacity: 1}}>
 	<nav class="sidebar-inner">
 		<div class="sidebar-title">
-			<a class="sidebar-branding" href='.'>{website.title}</a>
+			<a class="sidebar-branding" href='.'>Bruno<br><span class="sidebar-branding-sub">BriSe.</span></a>
 		</div>
 		<div class="sidebar-separator"></div>
 		<nav class="sidebar-close">
@@ -212,7 +234,7 @@
 <header class="header">
 	<div class="header-inner">
 		<div class="header-title">
-			<a class="header-branding" href='.'>{website.title}</a>
+			<a class="header-branding" href='.'>Bruno<br><span class="header-branding-sub">BriSe.</span></a>
 		</div>
 		<nav class="sidebar-open">
 			<button on:click={sidebarToggle}>&#9776;</button>
