@@ -50,8 +50,6 @@
 	.header-nav-item, .sidebar-nav-item {
 		display: block;
 		float: left;
-		font-size: 1em;
-		text-transform: uppercase;
 	}
 
 	.header-nav-item {
@@ -59,11 +57,13 @@
 	}
 
 	.header-nav-item:hover {
-		color: var(--silver);
-		animation-name: color-change-black-to-silver;
-		animation-duration: 350ms;
+		border-bottom: 2px solid var(--red);
 	}
-	
+
+	.header-nav-item-link {
+		font-size: 1.2em;
+		font-weight: 500;
+	}
 
 	.header-inner, .sidebar-inner {
 		display: flex;
